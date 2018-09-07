@@ -5,9 +5,9 @@
   <subtitle>Yishy is learning CS</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://yishy.github.io/"/>
   <updated>2018-09-06T11:52:58.538Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://yishy.github.io/</id>
   
   <author>
     <name>yishy</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2018/09/06/hello-world/"/>
-    <id>http://yoursite.com/2018/09/06/hello-world/</id>
+    <link href="https://yishy.github.io/2018/09/06/hello-world/"/>
+    <id>https://yishy.github.io/2018/09/06/hello-world/</id>
     <published>2018-09-06T11:52:58.538Z</published>
     <updated>2018-09-06T11:52:58.538Z</updated>
     
