@@ -386,6 +386,10 @@
           
 
   
+    <div id="gitalk-container"></div>
+
+
+  
 
 
 
@@ -634,6 +638,22 @@
 
 
 
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'db573e73c75dc80fa628',
+          clientSecret: '8d96cb291e4e50411d52f79df86ceda91d35bfe3',
+          repo: 'yishy.github.io',
+          owner: 'yishy',
+          admin: ['yishy'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
+
+.gt-container a{border-bottom: none;}
   
 
   <script type="text/javascript">
