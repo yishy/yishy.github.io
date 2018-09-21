@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[leetcode总结第一期]]></title>
+    <url>%2F2018%2F09%2F21%2Fleetcode%E6%80%BB%E7%BB%93%E7%AC%AC%E4%B8%80%E6%9C%9F%2F</url>
+    <content type="text"><![CDATA[这是初级算法部分刷完数组和字符串之后的总结: 数组加一 给定一个由整数组成的非空数组所表示的非负整数，在该数的基础上加一。 思路：如果最高位产生进位，用insert()在vector前插入数字1得到结果。 向量（vector)和数组的区别：向量容器(vector)是一种顺序容器，是一块连续分配的内存，支持随机访问，从数据安排的角度看，和数组极其相似，数组跟vector的区别在于：数组是静态分配空间，一旦分配了空间的大小，就不可以再改变了，例如,int a[6];而vector是动态分配内存，随着元素的不断插入，它会按照自身的一套机制不断扩充自身的容量，vector容器的容量增长是按照容器现在容量的一倍进行增长。 C++STL中vector容器 begin()与end()函数、front()与back()的用法：1.begin函数：函数原型:12iterator begin();const_iterator begin(); 功能：返回一个当前vector容器中起始元素的迭代器。 2.end函数：函数原型：12iterator end();const_iterator end(); 功能：返回一个当前vector容器中末尾元素的迭代器。 3.front函数：函数原型：12reference front();const_reference front(); 功能：返回当前vector容器中起始元素的引用。 4.back函数：函数原型：12reference back();const_reference back(); 功能：返回当前vector容器中末尾元素的引用。 源代码：123456789101112131415class Solution &#123;public: vector&lt;int&gt; plusOne(vector&lt;int&gt;&amp; digits) &#123; int n = digits.size(); for (int i = n - 1; i &gt;= 0; --i) &#123; if (digits[i] == 9) digits[i] = 0; else &#123; digits[i] += 1; return digits; &#125; &#125; if (digits.front() == 0) digits.insert(digits.begin(), 1); return digits; &#125;&#125;; 旋转图像 给定一个 n × n 的二维矩阵表示一个图像。将图像顺时针旋转 90 度。 思路：将矩阵转置，之后将每一行的顺序颠倒（reverse每行的元素）。 源代码1234567891011121314151617181920class Solution &#123;public: void rotate(vector&lt;vector&lt;int&gt;&gt;&amp; matrix) &#123; int n = matrix.size(); int i,j; for(i=0;i&lt;n;i++) &#123; for (j=i;j&lt;n;j++) &#123; swap(matrix[i][j],matrix[j][i]); &#125; &#125; for (i=0;i&lt;n;i++)&#123; for (j=0;j&lt;(n/2);j++) &#123; swap(matrix[i][j],matrix[i][n-j-1]); &#125; &#125; &#125;&#125;;]]></content>
+      <categories>
+        <category>leetcode</category>
+      </categories>
+      <tags>
+        <tag>数据结构</tag>
+        <tag>数组</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2018%2F09%2F06%2Fhello-world%2F</url>
     <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>

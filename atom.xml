@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yishy.github.io/"/>
-  <updated>2018-09-06T11:52:58.538Z</updated>
+  <updated>2018-09-21T10:33:45.008Z</updated>
   <id>https://yishy.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetcode总结第一期</title>
+    <link href="https://yishy.github.io/2018/09/21/leetcode%E6%80%BB%E7%BB%93%E7%AC%AC%E4%B8%80%E6%9C%9F/"/>
+    <id>https://yishy.github.io/2018/09/21/leetcode总结第一期/</id>
+    <published>2018-09-21T09:03:09.000Z</published>
+    <updated>2018-09-21T10:33:45.008Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是初级算法部分刷完数组和字符串之后的总结:
+    
+    </summary>
+    
+      <category term="leetcode" scheme="https://yishy.github.io/categories/leetcode/"/>
+    
+    
+      <category term="数据结构" scheme="https://yishy.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+      <category term="数组" scheme="https://yishy.github.io/tags/%E6%95%B0%E7%BB%84/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
