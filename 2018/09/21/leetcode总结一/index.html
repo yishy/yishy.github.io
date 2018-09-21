@@ -109,14 +109,14 @@
   <meta name="description" content="这是初级算法部分刷完数组和字符串之后的总结:">
 <meta name="keywords" content="数据结构,数组">
 <meta property="og:type" content="article">
-<meta property="og:title" content="LC总结 一">
-<meta property="og:url" content="https://yishy.github.io/2018/09/21/LC总结 一/index.html">
+<meta property="og:title" content="leetcode总结一">
+<meta property="og:url" content="https://yishy.github.io/2018/09/21/leetcode总结一/index.html">
 <meta property="og:site_name" content="Y!SHY">
 <meta property="og:description" content="这是初级算法部分刷完数组和字符串之后的总结:">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-09-21T11:15:48.424Z">
+<meta property="og:updated_time" content="2018-09-21T11:43:39.093Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="LC总结 一">
+<meta name="twitter:title" content="leetcode总结一">
 <meta name="twitter:description" content="这是初级算法部分刷完数组和字符串之后的总结:">
 
 
@@ -126,7 +126,7 @@
 
 
 
-  <link rel="canonical" href="https://yishy.github.io/2018/09/21/LC总结 一/"/>
+  <link rel="canonical" href="https://yishy.github.io/2018/09/21/leetcode总结一/"/>
 
 
 
@@ -136,7 +136,7 @@
   };
 </script>
 
-  <title>LC总结 一 | Y!SHY</title>
+  <title>leetcode总结一 | Y!SHY</title>
   
 
 
@@ -341,7 +341,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://yishy.github.io/2018/09/21/LC总结 一/">
+    <link itemprop="mainEntityOfPage" href="https://yishy.github.io/2018/09/21/leetcode总结一/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="yishy">
@@ -358,7 +358,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">LC总结 一
+          <h1 class="post-title" itemprop="name headline">leetcode总结一
               
             
           </h1>
@@ -383,7 +383,7 @@
                 
               
 
-              <time title="创建时间：2018-09-21 17:03:09 / 修改时间：19:15:48" itemprop="dateCreated datePublished" datetime="2018-09-21T17:03:09+08:00">2018-09-21</time>
+              <time title="创建时间：2018-09-21 17:03:09 / 修改时间：19:43:39" itemprop="dateCreated datePublished" datetime="2018-09-21T17:03:09+08:00">2018-09-21</time>
             
 
             
@@ -833,6 +833,8 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="/js/src/md5.min.js"></script>
+
    <script type="text/javascript">
         var gitalk = new Gitalk({
           clientID: 'db573e73c75dc80fa628',
@@ -840,7 +842,7 @@
           repo: 'mygitalk',
           owner: 'yishy',
           admin: ['yishy'],
-          id: location.pathname,
+          id: md5(location.pathname),
           distractionFreeMode: 'true'
         })
         gitalk.render('gitalk-container')           
